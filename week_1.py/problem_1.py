@@ -1,6 +1,6 @@
 inp = str(input('typer your number: '))
 list = list(inp)
-product = 1;
+sum = 0
 for i in list:
-    product *= int(i)
-print(product)
+    sum += int(i)
+print(sum)
